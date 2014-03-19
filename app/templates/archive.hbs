@@ -1,0 +1,7 @@
+<ul class="comics-listing">
+  {{#each comic in controller}}
+    <li>{{comic.title}}</li>
+  {{else}}
+    <li>no comics...make some :-(</li>
+  {{/each}}
+</ul>
